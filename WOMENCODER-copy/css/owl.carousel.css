@@ -123,7 +123,7 @@
 
 }
 .owl-fadeUp-in h4{
-	color:rgba(40, 183, 141, 0.8) !important;
+	color:rgba(255,255,255,1) !important;
 transition: opacity 2s ease 1s;
 	-webkit-transition: opacity 2s ease 1s;
 	-moz-transition: opacity 2s ease 1s;
@@ -134,7 +134,7 @@ transition: opacity 2s ease 1s;
   animation: scaleUpTo .5s ease both;
 }
 .owl-fadeUp-out {
-	color:rgba(40, 183, 141, 0.8) !important;
+	color:rgba(255,159,45,.8) !important;
 transition: opacity 2s ease 1s;
 	-webkit-transition: opacity 2s ease 1s;
 	-moz-transition: opacity 2s ease 1s;
