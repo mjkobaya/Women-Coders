@@ -357,7 +357,7 @@ jQuery(document).ready(function() {
         navigationText: false,
 		autoPlay:4000,
 		itemsDesktop : [1000,1], //5 items between 1000px and 901px
-		itemsDesktopSmall : [900,1], // betweem 900px and 601px
+		itemsDesktopSmall : [900,1], // between 900px and 601px
 		itemsTablet: [600,1], //2 items between 600 and 0
 		transitionStyle : "fadeUp",
 		mouseDrag:false,
