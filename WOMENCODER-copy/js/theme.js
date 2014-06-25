@@ -471,7 +471,7 @@ jQuery(window).load(function() {
 	    count: 4,
 	    avatar_size: 0,
 	    loading_text: 'loading twitter feed',
-	    username:'aktissolutions'
+	    username:'womencoders'
 	});
 	
 	/*=================================================================
