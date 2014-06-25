@@ -190,9 +190,10 @@ header.navbar {
 header .navbar-header #logo {
     display: block;
     float: left;
-    height: 71px;   
-    width: 71px;
-	margin-left:20px;
+    height: 100px;   
+    width: 269px;
+	margin-left: 0px;
+	margin-top: 0px;
 	transition: background 0.2s linear 0s;
 	-webkit-transition: background 0.2s linear 0s;
 	-moz-transition: background 0.2s linear 0s;
@@ -203,7 +204,7 @@ header .navbar-header #logo img {
     height: 100%;
     width: 100%;
 }
-.show .navbar-header #logo{
+/*.show .navbar-header #logo2{
     height: 50px;
 	width: 50px;
     transition: background 0.2s linear 0s;
@@ -212,6 +213,7 @@ header .navbar-header #logo img {
 	-o-transition: background 0.2s linear 0s;
 	-ms-transition: background 0.2s linear 0s;  
 }
+*/
 #main-nav{
     margin-bottom: 0;
     overflow: hidden;
@@ -596,7 +598,7 @@ color:#333 !important;
 -------------------------*/
 #about{background:#fff;position:relative;z-index:100;}
 #about .row{margin-bottom:0;}
-#about .avatar {background-clip: padding-box;width: 120px;border-radius: 100%;-webkit-border-radius: 100%;-moz-border-radius: 100%;-o-border-radius: 100%;-ms-border-radius: 100%;}
+#about .avatar {background-clip: padding-box;width: 200px;border-radius: 100%;-webkit-border-radius: 100%;-moz-border-radius: 100%;-o-border-radius: 100%;-ms-border-radius: 100%;}
 #about blockquote {margin: 40px auto 50px;}
 #about blockquote p {color: #4A4A4A;font: 42px/1.5 "Lato";text-align: center;text-transform: none;margin-bottom: 18px;font-weight:300;}
 #about blockquote cite {font-size: 18px;font-style: normal;text-align: center;text-transform:none;font-weight:300;}
