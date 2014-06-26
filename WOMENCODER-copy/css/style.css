@@ -481,7 +481,7 @@ color:#333 !important;
  }
 .item-container h4{
 	color: #FFFFFF;
-    font-size: 7em;
+    font-size: 5em;
     font-weight: 800;
     letter-spacing: 0;
     margin-bottom: 40px;
@@ -495,6 +495,14 @@ color:#333 !important;
 	-moz-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
+}
+.sponsorship-bar{
+	width: 60%;
+	padding: 20px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-right:auto;
 }
 .bg {
     background-attachment: fixed;
