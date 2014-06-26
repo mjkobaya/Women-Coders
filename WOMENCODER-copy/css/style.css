@@ -826,7 +826,7 @@ background-image:none;
 }
 /* 11. Clients
 -------------------------*/
-#clients {padding:100px 0;text-align: center;}
+#clients {padding:100px 0;text-align: center; margin-right: auto;　margin-left: auto;}
 
 #clients img {
   max-width: 100px;
