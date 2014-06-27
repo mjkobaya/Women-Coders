@@ -140,7 +140,7 @@ jQuery(document).ready(function() {
 	/*=================================================================
 	Portfolio: Isotope Layout Plugin
 	===================================================================*/ 
-/*
+
 	var container = jQuery('#portfolio-list');
 	// Portfolio: Number of columns
 	// 2 columns grid for mobile
@@ -150,7 +150,7 @@ jQuery(document).ready(function() {
 			var portfolioColumns = 2;
 		}
 		else if (windowWidth >= 768) {
-			var portfolioColumns = 3;
+			var portfolioColumns = 1;
 		}
 		return portfolioColumns;
 	}
@@ -158,7 +158,6 @@ jQuery(document).ready(function() {
 	/*=================================================================
 	Initialize Isotope & Masonry Layout
 	===================================================================*/ 
-
 	container.imagesLoaded( function() {
 		container.isotope({
 		  itemSelector: 'li',
@@ -249,8 +248,8 @@ jQuery(document).ready(function() {
 	
 	/*=================================================================
 	portfolio Opening a Project
-	===================================================================*/ 
-	/*
+	=================================================================	 
+
 	portfolioItem.find('a').click(function(e) {
 		e.preventDefault();
 		// Show Loading Spinner
@@ -273,7 +272,8 @@ jQuery(document).ready(function() {
 			projectFunctions();
 		});
 	});
-	
+=*/
+
 	// Button: Previous Project
 	jQuery('.prev').click(function() {
 		jQuery('#project-container .spinner').show(200);
@@ -325,10 +325,11 @@ jQuery(document).ready(function() {
 		  jQuery('.project-content').html('');
 		}
 	});
+
 		
 	
 	/* Full-Width
-	-------------------------
+	-------------------------*/
 	var fullWidthSpace = ( windowWidth - jQuery('.full-width').width() ) / 2;
 	jQuery('.full-width').css({'width': windowWidth+'px', 'margin-left' : -fullWidthSpace+'px'});
 	
@@ -382,7 +383,7 @@ jQuery(document).ready(function() {
 	/*=================================================================
 	clients slider	
 	===================================================================*/ 
-/*	
+	
 	$("#client-slider").owlCarousel({
         navigation: false,
         pagination: false,
