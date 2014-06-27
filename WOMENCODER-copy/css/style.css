@@ -481,7 +481,11 @@ color:#333 !important;
  }
 .item-container h4{
 	color: #FFFFFF;
+<<<<<<< HEAD
     font-size: 5em;
+=======
+    font-size: 40px;
+>>>>>>> 25ee754b8cf29ba2ee0662ec59c669e860551e29
     font-weight: 800;
     letter-spacing: 0;
     margin-bottom: 40px;

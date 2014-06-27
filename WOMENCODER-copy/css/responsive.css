@@ -6,7 +6,11 @@
 .mail-message [contenteditable="true"]{margin-bottom: 25px;}
 .navbar-nav > li {padding-left: 50px;}
 .item-container h4 {
+<<<<<<< HEAD
        font-size: 5.5em;        
+=======
+       font-size: 40px;        
+>>>>>>> 25ee754b8cf29ba2ee0662ec59c669e860551e29
     line-height: 1em;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -19,7 +23,11 @@
 	.navbar-collapse {width: 100%;}
 	.navbar-collapse li{display:table;padding:0;margin:0 auto;}
 	.item-container h4 {
+<<<<<<< HEAD
        font-size: 4em;        
+=======
+       font-size: 30px;        
+>>>>>>> 25ee754b8cf29ba2ee0662ec59c669e860551e29
     line-height: 1em;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -80,7 +88,11 @@
 @media (max-width: 480px){
 	body {font-size: 16px;}
 	.item-container h4 {
+<<<<<<< HEAD
        font-size: 3em;        
+=======
+       font-size: 20px;        
+>>>>>>> 25ee754b8cf29ba2ee0662ec59c669e860551e29
     line-height: 1em;
     margin-bottom: 40px;
     margin-top: 40px;
