@@ -204,16 +204,16 @@ header .navbar-header #logo img {
     height: 100%;
     width: 100%;
 }
-/*.show .navbar-header #logo2{
-    height: 50px;
-	width: 50px;
+.show .navbar-header #logo{
+    height: 60px;
+	width: 161px;
     transition: background 0.2s linear 0s;
 	-webkit-transition: background 0.2s linear 0s;
 	-moz-transition: background 0.2s linear 0s;
 	-o-transition: background 0.2s linear 0s;
 	-ms-transition: background 0.2s linear 0s;  
 }
-*/
+
 #main-nav{
     margin-bottom: 0;
     overflow: hidden;

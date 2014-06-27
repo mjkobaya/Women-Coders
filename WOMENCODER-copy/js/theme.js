@@ -140,7 +140,7 @@ jQuery(document).ready(function() {
 	/*=================================================================
 	Portfolio: Isotope Layout Plugin
 	===================================================================*/ 
-
+/*
 	var container = jQuery('#portfolio-list');
 	// Portfolio: Number of columns
 	// 2 columns grid for mobile
@@ -250,7 +250,7 @@ jQuery(document).ready(function() {
 	/*=================================================================
 	portfolio Opening a Project
 	===================================================================*/ 
-	
+	/*
 	portfolioItem.find('a').click(function(e) {
 		e.preventDefault();
 		// Show Loading Spinner
@@ -328,7 +328,7 @@ jQuery(document).ready(function() {
 		
 	
 	/* Full-Width
-	-------------------------*/
+	-------------------------
 	var fullWidthSpace = ( windowWidth - jQuery('.full-width').width() ) / 2;
 	jQuery('.full-width').css({'width': windowWidth+'px', 'margin-left' : -fullWidthSpace+'px'});
 	
@@ -382,7 +382,7 @@ jQuery(document).ready(function() {
 	/*=================================================================
 	clients slider	
 	===================================================================*/ 
-	
+/*	
 	$("#client-slider").owlCarousel({
         navigation: false,
         pagination: false,
