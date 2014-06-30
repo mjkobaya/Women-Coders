@@ -7,9 +7,9 @@
 .navbar-nav > li {padding-left: 50px;}
 .item-container h4 {
        font-size: 40px;        
-		line-height: 1em;
-		margin-bottom: 40px;
-		margin-top: 40px;
+    line-height: 1em;
+    margin-bottom: 40px;
+    margin-top: 40px;
 	}
 	
 
@@ -19,10 +19,10 @@
 	.navbar-collapse {width: 100%;}
 	.navbar-collapse li{display:table;padding:0;margin:0 auto;}
 	.item-container h4 {
-		font-size: 30px;        
-		line-height: 1em;
-		margin-bottom: 40px;
-		margin-top: 40px;
+       font-size: 30px;        
+    line-height: 1em;
+    margin-bottom: 40px;
+    margin-top: 40px;
 	}
 	#heading-slider-style1 ,#heading-slider-style2{width:100%;	}
 	#about .avatar,#project-testimonial .avatar{width:100px;}
@@ -80,10 +80,10 @@
 @media (max-width: 480px){
 	body {font-size: 16px;}
 	.item-container h4 {
-        font-size: 20px;        
-		line-height: 1em;
-		margin-bottom: 40px;
-		margin-top: 40px;
+       font-size: 20px;        
+    line-height: 1em;
+    margin-bottom: 40px;
+    margin-top: 40px;
 	}
 	#heading-slider-style1 ,#heading-slider-style2{width:100%;	}
 	#about .avatar,#project-testimonial .avatar{width:100px;}
@@ -136,10 +136,10 @@
 @media (max-width : 320px) {
 	body {font-size: 14px;}
 	.item-container h4 {
-       font-size: 10px;        
-		line-height: 1em;
-		margin-bottom: 40px;
-		margin-top: 40px;
+       font-size: 2em;        
+    line-height: 1em;
+    margin-bottom: 40px;
+    margin-top: 40px;
 	}
 	#heading-slider-style1 ,#heading-slider-style2{width:100%;	}
 	#about .avatar,#project-testimonial .avatar{width:80px;}
