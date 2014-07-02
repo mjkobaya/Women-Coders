@@ -22,6 +22,7 @@
 14 Testimonial
 15 News/Blog
 16 Contact section
+17 Donation Section
 	
 -------------------------------------------------------------------*/
 
@@ -1791,6 +1792,12 @@ div .post-meta .date a:hover{color:#fff;}
 .tweet_list{transition: all 0.8s ease 0s;-webkit-transition: all 0.8s ease 0s;-moz-transition: all 0.8s ease 0s;-ms-transition: all 0.8s ease 0s;-o-transition: all 0.8s ease 0s;}
 .comm-name{display:inline-block;}
 .cust-name h2{font-size:20px !important;font-weight:600 !important;color:#ffeb00 !important;padding-top:22px;padding-left:30px;}
+
+
+/* 17. Donate Section
+-------------------------*/
+#donate {padding:100px 0;text-align: center; margin-right: auto;　margin-left: auto;}
+
 
 /* DEMO ONLY
 -------------------------*/

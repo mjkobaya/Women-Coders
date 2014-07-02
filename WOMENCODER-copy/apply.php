@@ -83,7 +83,6 @@ echo $msg;
                             <div class="clearfix"></div>
                           </div>
                           <input type="submit" value="Send Message" name="subscribe" class=" btn btn-success">
-
                           <div class="result"></div>
 </form>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
