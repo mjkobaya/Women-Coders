@@ -694,7 +694,7 @@ cite {display: block;font-style: normal;}
 }
 .btn-circle {
     background: none repeat scroll 0 0 padding-box rgba(255,159,45,.8);
-	background-color: #4a4a4a;
+	background-color: #FF9F2D;
     border-radius: 78px;-webkit-border-radius: 78px;-moz-border-radius: 78px;-o-border-radius: 78px;-ms-border-radius: 78px;
     color: #FFFFFF;
     display: inline-block;
@@ -718,7 +718,7 @@ cite {display: block;font-style: normal;}
     width: 32px;
 }
 .btn-circle:hover, .btn-circle:active, .btn-circle:focus {
-    background: none repeat scroll 0 0 #FF9F2D;
+    background: none repeat scroll 0 0 #4a4a4a;
     color: #FFFFFF;
     transition: background 0.2s linear 0s;-webkit-transition: background 0.2s linear 0s;-moz-transition: background 0.2s linear 0s;-o-transition: background 0.2s linear 0s;
 }
