@@ -77,8 +77,8 @@
 /*slide.css*/
 @import url("slide/camera.css");
 /*Google Fonts*/
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
 
 
 /* Standar Styles --------------------------------------------------------*/
@@ -87,8 +87,8 @@ body{
 	font-size: 20px;	
 	font-family: 'Lato', serif;
 	font-weight: 300;
-	line-height:24px;
 	color:#4a4a4a;
+	line-height:24px;
 	background-color: #fff;
 }
 a{
