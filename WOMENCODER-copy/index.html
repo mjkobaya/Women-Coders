@@ -10,12 +10,12 @@
 	<meta name="author" content="Women Coders" />
     
     <meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Women Coders - Cultivating More Female Developers" />
-<meta property="og:description" content="Women Coders is a PeopleSpace, 501(c)3 nonprofit organization based in Orange County, program dedicated to cultivating more female developers and fostering a community of confident, ambitious, and collaborative women." />
-<meta property="og:url" content="http://www.womencoders.org" />
-<meta property="og:site_name" content="Women Coders" />
-<meta property="og:image" content="http://www.womencoders.org/images/logo4.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Women Coders - Cultivating More Female Developers" />
+	<meta property="og:description" content="Women Coders is a PeopleSpace, 501(c)3 nonprofit organization based in Orange County, program dedicated to cultivating more female developers and fostering a community of confident, ambitious, and collaborative women." />
+	<meta property="og:url" content="http://www.womencoders.org" />
+	<meta property="og:site_name" content="Women Coders" />
+	<meta property="og:image" content="http://www.womencoders.org/images/logo4.png" />
 
 <!-- Page Title 
 	================================================== -->
@@ -34,6 +34,7 @@
 <!-- Theme Specific CSS -->
 	<link href="css/animate.css" rel="stylesheet" media="screen"/>	
 	<link rel="stylesheet" href="css/owl.carousel.css"/>	
+	<link rel="stylesheet" href="css/custom-slider.css"/>
 	<link href="css/venobox/venobox.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" media="screen"/>
 	<link href="css/responsive.css" rel="stylesheet" media="screen"/>
@@ -79,7 +80,7 @@
 						<li><a href="#portfolio-block">Events</a></li>		
 						<!-- <li><a href="#blog">News</a></li>	 -->
 						<li><a href="#clients">Partnerships</a></li>
-						<li><a href="#donate">Donate</a></li>
+						<li><a href="#scholarship">Scholarship Program</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 					<div id="toggle-navbar"><i class="fa fa-angle-right"></i></div>
@@ -96,45 +97,45 @@
 			<div class="background-overlay"></div>
 			<div class="wrapper">
 				<div class="inner">
-					<!-- header slider -->
+				
+					<!-- custom slider-->
 					<!--
-					<div id="heading-slider-style1" class="owl-carousel clearfix">
-						<div class="item">
-							<div class="item-container">
-								<h4>Community.</h4>								
-							</div>
-						</div>						
-						<div class="item">
-							<div class="item-container">
-								<h4>Development.</h4>								
-							</div>
-						</div>						
-						<div class="item">
-							<div class="item-container">
-								<h4>Workshops.</h4>
-								
-							</div>
-						</div>
+
+					<div id="owl-demo" class="owl-carousel owl-theme" style="margin-top:150px">
+					<div class="item"><span>
+													<h4 style="text-shadow: 5px 5px 5px #000000;"> <strong>Apply to our Scholarship</strong></h4>
+													<p style="text-shadow: 5px 5px 5px #000000; font-size:20px; color:black;">
+														Women Coders is working on raising funds to send 10 women <br>to the Full-stack Immersive Web Development Bootcamp.
+													</p>
+																					<a class="btn-circle show-work"  data-toggle="modal" data-target="#myModal">
+													<span>Apply Here</span>
+													<hr/>
+												</a>
+												<p><strong><a href="http://schoolofdevs.com" target="_blank">Learn more about our partner bootcamps</a></strong></p>
+												</span>
 					</div>
-					-->
-					<!-- end header slider -->		
-					
+					<div class="item"><a href="#about"><img src="images/we can code it.png" alt="GTA V"></a></div>
+					<div class="item"><a href="#scholarship"><img src="images/heading1.png" alt="Mirror Edge"></a></div>
+					</div>
+
+					<!-- End custom slider -->
+
 					<!-- sponsorship button -->
 					<div class="item-container">
 						<div class="sponsorship-bar">
-							<h4 style="text-shadow: 5px 5px 5px #000000;"> <strong>Apply to our Scholarship</strong></h4>
-							<p style="text-shadow: 5px 5px 5px #000000; font-size:20px; color:black;">
-								Women Coders is working on raising funds to send 10 women <br>to the Full-stack Immersive Web Development Bootcamp.
+						<a href="#scholarship">
+							<br/>
+							<h4 style="text-shadow: 5px 5px 5px #000000;"> <strong>Cultivating More Female Developers</strong></h4>
+							<p style="text-shadow: 5px 5px 5px #000000; color:black;">
+								Women Coders is working on raising funds to send 10 women to the Full-stack Immersive Web Development Bootcamp.
 							</p>
-						</div>
-
-						<a class="btn-circle show-work"  data-toggle="modal" data-target="#myModal">
-							<span>Apply Here</span>
-							<hr/>
+							<h5> Click to Learn More </h5>
+							<br/>
 						</a>
-						<p><strong><a href="http://schoolofdevs.com" target="_blank">Learn more about our partner bootcamps</a></strong></p>
+						</div>
 					</div>
-					<!-- end sponsorship button -->
+					<!-- end sponsorship button -->				
+
 				</div>
 			</div>
 		</div>
@@ -164,7 +165,9 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      <h4 class="modal-title" id="myModalLabel">Donate to the Women Coders Scholarship</h4>
+                      <h4 class="modal-title" id="myModalLabel">The Women Coders Scholarship</h4>
+					  
+					  <p>Please donate to help fund the education and training of women in coding bootcamps.</p>
                     </div>
                     <div class="modal-body">
                       <!--Form Contact-->
@@ -587,12 +590,17 @@
 	</div>
 	<!-- end clients section-->
 	
-	<!-- Donate Section -->
-	<div id="donate" class="section">
-		<div class="large-10 block-head">		
+	<!-- Scholarship Section -->
+	<div id="scholarship" class="section">
+		<div class="large-10 block-head" style="width:50%;position:relative;margin-left: auto; margin-right:auto">		
 		<!-- Fill -->
-			<h2>Interested in Bringing More Girls to the Bootcamp? </h2>
+			<hr/>
+			<h2>The Women Coders Scholarship Program</h2>
 			<br/>
+			<a class="btn-circle show-work"  data-toggle="modal" data-target="#myModal" data-animated="bounceIn">
+				<span>Apply</span>
+				<hr/>
+			</a> 
 			<a class="btn-circle show-work"  data-toggle="modal" data-target="#myModal1" data-animated="bounceIn">
 				<span>Donate</span>
 				<hr/>
@@ -600,13 +608,14 @@
 		</div>
 	</div>
 
-	<!-- End Donate Section -->
+	<!-- End Scholarship Section -->
 	
 	<!-- Contact section -->	
 	<div id="contact" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 text-center" data-animated="bounceIn">
+					
 					<h2 class="large-10 small-centered columns">Let's get <strong>talking.</strong></h2>
 					<h3>We would love to hear from you.</h3>
 				</div>
@@ -686,6 +695,7 @@
 	<!-- end Footer -->
 	
 </div>
+<<<<<<< HEAD
 
 <!-- Google Analytics Tracking Code -->
 <script>
@@ -702,7 +712,11 @@
 
 
 <!-- Jquery -->
+=======
+>>>>>>> FETCH_HEAD
 
+<!-- Style switcher -->
+<!-- Jquery -->
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/spin.min.js"></script>
 <script type="text/javascript" src="js/jquery.fitvids.js"></script>
@@ -719,6 +733,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script type="text/javascript" src="js/custom-googlemap.js"></script>
 <script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/custom-slider.js"></script>
 
 </body>
 </html>

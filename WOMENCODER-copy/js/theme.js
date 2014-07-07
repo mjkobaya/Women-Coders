@@ -434,7 +434,6 @@ jQuery(document).ready(function() {
         navigationText: false
     });
 	
-	
 }); 
 // END jQuery(document).ready()
 
