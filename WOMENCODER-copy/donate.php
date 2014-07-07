@@ -96,7 +96,7 @@ catch (Exception $e) {
 </head>
 
 <body>
-			<h1 style="color: #000000;">Pay with Stripe</h1>
+			<h1>Pay with Stripe</h1>
 			<!-- to display errors returned by createToken -->
 			<span class="payment-errors"><?= $error ?></span>
 			<span class="payment-success"><?= $success ?></span>
@@ -121,7 +121,7 @@ catch (Exception $e) {
 					<span> / </span>
 					<input type="text" size="4" class="card-expiry-year"/>
 				</div>
-				<button type="submit" class="btn btn-default js-contact-submit">Submit Payment <i class="fa fa-paper-plane"></i></button>
+				<button type="submit" class="btn btn-default js-contact-submit" style="color:#4a4a4a">Submit Payment <i class="fa fa-paper-plane"></i></button>
 			</form>
 </body>
 </html>

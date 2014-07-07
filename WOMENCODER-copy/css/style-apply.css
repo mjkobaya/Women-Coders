@@ -85,13 +85,14 @@
 
 body{
 	font-size: 20px;	
-	font-family: 'Bree Serif', serif;
+	font-family: 'Lato', serif;
+	font-weight: 300;
 	line-height:24px;
-	color:#fff;
+	color:#4a4a4a;
 	background-color: #fff;
 }
 a{
-	color: #fff;
+	color: #4a4a4a;
 }
 a:hover{
 	text-decoration: none;	
@@ -109,10 +110,10 @@ h5 {font-size:14px;}
 h6 {font-size:12px;}
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 600;
+	font-weight: 300;
 	line-height: 30px;
 	margin: 0;	
-	color: #fff;
+	color: #4a4a4a;
 }
 ul li{
 	list-style: none;
