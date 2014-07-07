@@ -489,20 +489,31 @@ color:#333 !important;
 	-o-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
 }
+
+.item-container p {
+	font-size: 30px;
+}
+
 .item-container a {
 color:#34495e;
 }
-.item-container a:hover{
-color:#fffff;
-}
+/* .item-container a:hover{
+	color:#fffff;
+} */
 .sponsorship-bar{
-	width: 80%;
-	padding: 20px;
+	width: 100%;
 	position: relative;
 	margin-left:auto;
 	margin-right:auto;
-	margin-right:auto;
 }
+
+.item-container:hover, .item-container:active, .item-container:focus{
+   /*  background: none repeat scroll 0 0 #FF9F2D; */
+	background-color: rgba(255,159,45,0.3);
+    color: #FFFFFF;
+    transition: background 0.2s linear 0s;-webkit-transition: background 0.2s linear 0s;-moz-transition: background 0.2s linear 0s;-o-transition: background 0.2s linear 0s;
+}
+
 .bg {
     background-attachment: fixed;
     background-position: center top;
@@ -1794,9 +1805,9 @@ div .post-meta .date a:hover{color:#fff;}
 .cust-name h2{font-size:20px !important;font-weight:600 !important;color:#ffeb00 !important;padding-top:22px;padding-left:30px;}
 
 
-/* 17. Donate Section
+/* 17. Scholarship Section
 -------------------------*/
-#donate {padding:100px 0;text-align: center; margin-right: auto;　margin-left: auto;}
+#scholarship {padding:100px 0;text-align: center; margin-right: auto;　margin-left: auto;}
 
 
 /* DEMO ONLY
