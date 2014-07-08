@@ -96,32 +96,36 @@ catch (Exception $e) {
 </head>
 
 <body>
+	<div id="donate-form">
 			<h1>Pay with Stripe</h1>
 			<!-- to display errors returned by createToken -->
 			<span class="payment-errors"><?= $error ?></span>
 			<span class="payment-success"><?= $success ?></span>
 			
-			<form action="" method="POST" id="payment-form" class="form-contact">
+			<form action="" method="POST" id="payment-form" class="form-contact form-horizontal">
 				<div class="form-row">
-					<label>Payment Amount</label>
-					<input name="amount"type="text" size="20" autocomplete="off"/>
+					<label class="control-label col-xs-3">Payment Amount</label>
+					<input name="amount"type="text" size="20" autocomplete="off" class="form-control" style="width:20%; position:relative; bottom:-16px"/>
 					<br/>
 				</div>
 				<div class="form-row">
-					<label>Card Number</label>
-					<input type="text" size="20" autocomplete="off" class="card-number" />
+					<label class="control-label col-xs-3">Card Number</label>
+					<input type="text" size="20" autocomplete="off" class="card-number form-control" style="width:60%"/>
+					<br/>
 				</div>
 				<div class="form-row">
-					<label>CVC</label>
-					<input type="text" size="4" autocomplete="off" class="card-cvc" />
+					<label class="control-label col-xs-3">CVC</label>
+					<input type="text" size="4" autocomplete="off" class="card-cvc form-control" style="width:10%"/>
 				</div>
 				<div class="form-row">
-					<label>Expiration (MM/YYYY)</label>
-					<input type="text" size="2" class="card-expiry-month"/>
-					<span> / </span>
-					<input type="text" size="4" class="card-expiry-year"/>
+					<label class="control-label col-xs-3">Expiration (MM/YYYY)</label>
+					<input type="text" size="2" class="card-expiry-month form-control control-label col-xs-3" style="width:10%; position:relative; top:19px;"/>
+					<span style="font-size:20px;position: relative; top:23px; right:-3px"> / </span>
+					<input type="text" size="4" class="card-expiry-year form-control" style="width:20%; position:relative; top:-5px; right:-15px"/>
 				</div>
-				<button type="submit" class="btn btn-default js-contact-submit" style="color:#4a4a4a">Submit Payment <i class="fa fa-paper-plane"></i></button>
+				<br/><br/>
+				<button type="submit" class="btn btn-default js-contact-submit" style="margin-left:15px;">Submit Payment <i class="fa fa-paper-plane"></i></button>
 			</form>
+	</div>
 </body>
 </html>

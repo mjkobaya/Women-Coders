@@ -127,6 +127,20 @@ kbd,
 img{
 		max-width: 100%;
 }
+#donate-form h1,h2,h3,h4,h5,h6{
+	color: #4a4a4a;
+	font-family:'Lato',sans-serif;
+	font-weight: 300;
+}
+#donate-form .btn-default{
+	background: none repeat scroll 0% 0% #FF9F2D;
+	color: #ffffff;
+	border-radius: 0px;
+	opacity: 0.8;
+}
+#donate-form .btn-default:hover{
+	opacity: 1.0
+}
 .clearfix{
 	width:1px;
 	height:1px;	
@@ -217,7 +231,7 @@ img{
 .form_contact input[type="submit"],
 .search,
 .tinynav{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', serif;
 }
 
 
@@ -1021,11 +1035,16 @@ textarea.form-control{
 }
 .form-contact input[type="submit"], .form_contact input[type="submit"] {
 	color: #fff;
+	background-color: #FF9F2D;
+	border-radius: 0px;
 	border: none;
 	padding: 5px 20px;
 	font-size: 13px;
+	opacity: 0.8;
 }
-
+.form-contact input[type="submit"]:hover {
+	opacity: 1.0;
+}
 
 /* Footer --------------------------------------------------------*/
 footer{

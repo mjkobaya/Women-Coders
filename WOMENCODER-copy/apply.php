@@ -82,7 +82,7 @@ echo $msg;
                             <textarea class="form-control" rows="2" placeholder="Misc (age, current city and state, special needs- child care, laptop, transportation, etc.)" required name="misc" id="misc"></textarea>
                             <div class="clearfix"></div>
                           </div>
-                          <input type="submit" value="Send Message" name="subscribe" class=" btn btn-success">
+                          <input type="submit" value="SEND MESSAGE" name="subscribe" id="apply-form" class="btn btn-default js-contact-submit">
                           <div class="result"></div>
 </form>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
