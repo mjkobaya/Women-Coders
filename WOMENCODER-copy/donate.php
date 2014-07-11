@@ -27,7 +27,7 @@ catch (Exception $e) {
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Donate</title>
+    <title>Donate to Women Coders</title>
     <meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -97,34 +97,37 @@ catch (Exception $e) {
 
 <body>
 	<div id="donate-form">
-			<h1>Pay with Stripe</h1>
 			<!-- to display errors returned by createToken -->
 			<span class="payment-errors"><?= $error ?></span>
 			<span class="payment-success"><?= $success ?></span>
 			
-			<form action="" method="POST" id="payment-form" class="form-contact form-horizontal">
+			<form action="" method="POST" id="payment-form" class="form-contact form-horizontal" style="padding:5%; padding-top:3%;">
+				<img src="images/logo2-1.png" alt="Women Coders" width="300" height="112">
+				<h2>Donation Form</h2>
+				<p>Please donate to help fund the education and training of women in coding bootcamps.</p>
+				
 				<div class="form-row">
 					<label class="control-label col-xs-3">Payment Amount</label>
-					<input name="amount"type="text" size="20" autocomplete="off" class="form-control" style="width:20%; position:relative; bottom:-16px"/>
+					<input name="amount"type="text" size="20" autocomplete="off" class="form-control" style="width:150px"/>
 					<br/>
 				</div>
 				<div class="form-row">
 					<label class="control-label col-xs-3">Card Number</label>
-					<input type="text" size="20" autocomplete="off" class="card-number form-control" style="width:60%"/>
+					<input type="text" size="20" autocomplete="off" class="card-number form-control" style="width:200px"/>
 					<br/>
 				</div>
 				<div class="form-row">
 					<label class="control-label col-xs-3">CVC</label>
-					<input type="text" size="4" autocomplete="off" class="card-cvc form-control" style="width:10%"/>
+					<input type="text" size="4" autocomplete="off" class="card-cvc form-control" style="width:50px"/>
 				</div>
 				<div class="form-row">
 					<label class="control-label col-xs-3">Expiration (MM/YYYY)</label>
-					<input type="text" size="2" class="card-expiry-month form-control control-label col-xs-3" style="width:10%; position:relative; top:19px;"/>
+					<input type="text" size="2" class="card-expiry-month form-control control-label col-xs-3" style="width:45px; position:relative; top:19px;"/>
 					<span style="font-size:20px;position: relative; top:23px; right:-3px"> / </span>
-					<input type="text" size="4" class="card-expiry-year form-control" style="width:20%; position:relative; top:-5px; right:-15px"/>
+					<input type="text" size="4" class="card-expiry-year form-control" style="width:45px; position:relative; top:-5px; right:-15px"/>
 				</div>
 				<br/><br/>
-				<button type="submit" class="btn btn-default js-contact-submit" style="margin-left:15px;">Submit Payment <i class="fa fa-paper-plane"></i></button>
+				<button type="submit" class="btn btn-default js-contact-submit">Submit Payment <i class="fa fa-paper-plane"></i></button>
 			</form>
 	</div>
 </body>
