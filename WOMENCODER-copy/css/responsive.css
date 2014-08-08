@@ -1,15 +1,22 @@
 /* Media query  */
 @media only screen and (max-width : 1224px) {
-#services .ser-icon i {font-size: 32px;}
-	#services .ser-icon hr {margin: 18px;width: 10%;}
-#footer {text-align:center;}
-.mail-message [contenteditable="true"]{margin-bottom: 25px;}
-.navbar-nav > li {padding-left: 50px;}
-.item-container h4 {
-       font-size: 40px;        
-    line-height: 1em;
-    margin-bottom: 40px;
-    margin-top: 40px;
+	#services .ser-icon i {font-size: 32px;}
+		#services .ser-icon hr {margin: 18px;width: 10%;}
+	#footer {text-align:center;}
+	.mail-message [contenteditable="true"]{margin-bottom: 25px;}
+	.navbar-nav > li {padding-left: 50px;}
+
+	.item-container{
+		font-size: 30px;
+		line-height: 30px;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	.item-container h4 {
+		font-size: 40px;        
+		line-height: 1em;
+		margin-bottom: 40px;
+		margin-top: 40px;
 	}
 
 
@@ -18,12 +25,21 @@
 @media (max-width: 767px){
 	.navbar-collapse {width: 100%;}
 	.navbar-collapse li{display:table;padding:0;margin:0 auto;}
+	.item-container{
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
 	.item-container h4 {
        font-size: 30px;        
     line-height: 1em;
     margin-bottom: 40px;
     margin-top: 40px;
 	}
+
+	
 	#heading-slider-style1 ,#heading-slider-style2{width:100%;	}
 	#about .avatar,#project-testimonial .avatar{width:100px;}
 	#about blockquote p,#project-testimonial blockquote p {font: 300 28px/1.5 "Lato";}
@@ -79,12 +95,20 @@
 /* Mobile phones */
 @media (max-width: 480px){
 	body {font-size: 16px;}
+	.item-container p {
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
 	.item-container h4 {
        font-size: 20px;        
     line-height: 1em;
     margin-bottom: 40px;
     margin-top: 40px;
 	}
+
 	#heading-slider-style1 ,#heading-slider-style2{width:100%;	}
 
 	#about .avatar,#project-testimonial .avatar{width:100px;}
@@ -136,6 +160,12 @@
 }
 @media (max-width : 320px) {
 	body {font-size: 14px;}
+	.item-container p {
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
 	.item-container h4 {
        font-size: 2em;        
     line-height: 1em;

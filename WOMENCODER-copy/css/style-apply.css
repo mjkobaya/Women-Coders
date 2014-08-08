@@ -77,21 +77,22 @@
 /*slide.css*/
 @import url("slide/camera.css");
 /*Google Fonts*/
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
 
 
 /* Standar Styles --------------------------------------------------------*/
 
 body{
 	font-size: 20px;	
-	font-family: 'Bree Serif', serif;
+	font-family: 'Lato', serif;
+	font-weight: 300;
+	color:#4a4a4a;
 	line-height:24px;
-	color:#fff;
 	background-color: #fff;
 }
 a{
-	color: #fff;
+	color: #4a4a4a;
 }
 a:hover{
 	text-decoration: none;	
@@ -109,10 +110,10 @@ h5 {font-size:14px;}
 h6 {font-size:12px;}
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 600;
+	font-weight: 300;
 	line-height: 30px;
 	margin: 0;	
-	color: #fff;
+	color: #4a4a4a;
 }
 ul li{
 	list-style: none;
@@ -125,6 +126,20 @@ kbd,
 }
 img{
 		max-width: 100%;
+}
+#donate-form h1,h2,h3,h4,h5,h6{
+	color: #4a4a4a;
+	font-family:'Lato',sans-serif;
+	font-weight: 300;
+}
+#donate-form .btn-default{
+	background: none repeat scroll 0% 0% #FF9F2D;
+	color: #ffffff;
+	border-radius: 0px;
+	opacity: 0.8;
+}
+#donate-form .btn-default:hover{
+	opacity: 1.0
 }
 .clearfix{
 	width:1px;
@@ -216,7 +231,7 @@ img{
 .form_contact input[type="submit"],
 .search,
 .tinynav{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', serif;
 }
 
 
@@ -1020,11 +1035,16 @@ textarea.form-control{
 }
 .form-contact input[type="submit"], .form_contact input[type="submit"] {
 	color: #fff;
+	background-color: #FF9F2D;
+	border-radius: 0px;
 	border: none;
 	padding: 5px 20px;
 	font-size: 13px;
+	opacity: 0.8;
 }
-
+.form-contact input[type="submit"]:hover {
+	opacity: 1.0;
+}
 
 /* Footer --------------------------------------------------------*/
 footer{
