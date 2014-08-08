@@ -57,7 +57,7 @@ echo $msg;
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Apply for Women Coders Scholarship</title>
+    <title>Contact Us</title>
     <meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -67,26 +67,24 @@ echo $msg;
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
   </head>
   <body>
+<form class="form-contact" action="" method="post">
 
-	<form class="form-contact" action="" method="post" style="padding:10%; padding-top:5%;">
-		 <img src="images/logo2-1.png" alt="Women Coders" width="300" height="112">
-		 <h2>Scholarship Application Form</h2><br/>
-		  <div class="form_contact">
-			<input type="text" class="name form-control" placeholder="Full Name" required name="name" id="name" >
-			<input type="email" class="email form-control" placeholder="Email" required name="email" id="email">
-			<input type="text" class="phone form-control" placeholder="Phone" required name="phone" id="phone">
-			<input type="text" class="phone form-control" placeholder="How Did You Hear About Us?" required name="hear_about" id="hear_about">
-			<textarea class="form-control" rows="2" placeholder="Education: Highest education level, undergraduate school name, undergraduate major, any other education info related to technology" required name="education" id="education"></textarea>
-			
-			<textarea class="form-control" rows="2" placeholder="Employment status:  unemployed, self-employed, employed- currently occupation" required name="employment" id="employment"></textarea>
-			<textarea class="form-control" rows="2" placeholder="Please describe your prior experience and skills with technology (any coding or building website experience?)" required name="experience" id="experience"></textarea>
-			<textarea class="form-control" rows="2" placeholder="Why are you interested in the Bootcamp Full Stack Web Developer course?" required name="why" id="why"></textarea>
-			<textarea class="form-control" rows="2" placeholder="Misc (age, current city and state, special needs- child care, laptop, transportation, etc.)" required name="misc" id="misc"></textarea>
-			<div class="clearfix"></div>
-		  </div>
-		  <input type="submit" value="SEND MESSAGE" name="subscribe" id="apply-form" class="btn btn-default js-contact-submit">
-		  <div class="result"></div>
-	</form>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+                          <div class="form_contact">
+                            <input type="text" class="name form-control" placeholder="Full Name" required name="name" id="name" >
+                            <input type="email" class="email form-control" placeholder="Email" required name="email" id="email">
+                            <input type="text" class="phone form-control" placeholder="Phone" required name="phone" id="phone">
+                            <input type="text" class="phone form-control" placeholder="How Did You Hear About Us?" required name="hear_about" id="hear_about">
+                            <textarea class="form-control" rows="2" placeholder="Education: Highest education level, undergraduate school name, undergraduate major, any other education info related to technology" required name="education" id="education"></textarea>
+                            
+                            <textarea class="form-control" rows="2" placeholder="Employment status:  unemployed, self-employed, employed- currently occupation" required name="employment" id="employment"></textarea>
+                            <textarea class="form-control" rows="2" placeholder="Please describe your prior experience and skills with technology (any coding or building website experience?)" required name="experience" id="experience"></textarea>
+                            <textarea class="form-control" rows="2" placeholder="Why are you interested in the Bootcamp Full Stack Web Developer course?" required name="why" id="why"></textarea>
+                            <textarea class="form-control" rows="2" placeholder="Misc (age, current city and state, special needs- child care, laptop, transportation, etc.)" required name="misc" id="misc"></textarea>
+                            <div class="clearfix"></div>
+                          </div>
+                          <input type="submit" value="Send Message" name="subscribe" class=" btn btn-success">
+                          <div class="result"></div>
+</form>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
